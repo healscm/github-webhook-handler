@@ -7,7 +7,7 @@ WORKDIR $APP_HOME
 COPY package*.json $APP_HOME/
 
 RUN npm install -g cnpm --registry=http://r.cnpmjs.org \
-  && cnpm install -g github-webhook-handler \
+  && cnpm install github-webhook-handler \
   && cnpm install -g forever
 EXPOSE 7777
 ADD . $APP_HOME
