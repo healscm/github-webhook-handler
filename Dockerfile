@@ -12,4 +12,4 @@ RUN npm install -g cnpm --registry=http://r.cnpmjs.org \
 EXPOSE 7777
 ADD . $APP_HOME
 
-CMD [ "/home/deployment/app/start.sh" ]
+CMD [ "sh", "/home/deployment/app/start.sh" ]
