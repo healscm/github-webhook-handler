@@ -1,1 +1,5 @@
-/usr/bin/forever start /home/deployment/app/deploy.js
+forever start /home/deployment/app/deploy.js
+
+
+
+
