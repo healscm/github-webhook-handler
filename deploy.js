@@ -15,7 +15,7 @@ function run_cmd(cmd, args, callback) {
 http.createServer(function (req, res) {
   handler(req, res, function (err) {
     res.statusCode = 404
-    res.end('no such location')
+    res.end('there is a 404 problem')
   })
 }).listen(7777)
  
