@@ -1,4 +1,4 @@
-forever start deploy.js
+#frever start deploy.js
 
 
 
