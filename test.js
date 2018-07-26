@@ -1,4 +1,3 @@
-    , through2 = require('through2')
     , series   = require('run-series')
 
 
