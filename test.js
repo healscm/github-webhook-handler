@@ -1,4 +1,3 @@
-    , series   = require('run-series')
 
 
 function signBlob (key, blob) {
