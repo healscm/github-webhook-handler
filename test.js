@@ -1,4 +1,3 @@
-const test     = require('tape')
     , crypto   = require('crypto')
     , handler  = require('./')
     , through2 = require('through2')
