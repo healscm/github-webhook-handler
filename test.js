@@ -303,9 +303,6 @@ test('handler responds on a bl error', function (t) {
   req.headers['x-hub-signature'] = signBlob('bogus', json)
   req.headers['x-github-event']  = 'issue'
 
-  h.on('push', function (event) {
-    t.fail(true, 'should not get here!')
-  })
 
   h.on('issue', function (event) {
     t.fail(true, 'should never get here!')
