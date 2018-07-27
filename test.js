@@ -1,7 +1,3 @@
-  crypto.createHmac('sha1', key).update(blob).digest('hex')
-}
-
-
 function mkReq (url, method) {
   var req = through2()
   req.method = method || 'POST'
