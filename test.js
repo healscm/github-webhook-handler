@@ -1,4 +1,3 @@
-function mkReq (url, method) {
   var req = through2()
   req.method = method || 'POST'
   req.url = url
