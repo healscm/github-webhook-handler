@@ -1,4 +1,3 @@
-  req.method = method || 'POST'
   req.url = url
   req.headers = {
       'x-hub-signature'   : 'bogus'
