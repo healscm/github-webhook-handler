@@ -1,4 +1,3 @@
-  var req = through2()
   req.method = method || 'POST'
   req.url = url
   req.headers = {
