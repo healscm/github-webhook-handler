@@ -1,4 +1,3 @@
-  req.url = url
   req.headers = {
       'x-hub-signature'   : 'bogus'
     , 'x-github-event'    : 'bogus'
