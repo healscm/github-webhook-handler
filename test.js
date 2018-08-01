@@ -1,4 +1,3 @@
-  req.headers = {
       'x-hub-signature'   : 'bogus'
     , 'x-github-event'    : 'bogus'
     , 'x-github-delivery' : 'bogus'
